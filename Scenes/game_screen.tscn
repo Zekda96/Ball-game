@@ -35,8 +35,8 @@ scale = Vector2( 1, 0.996783 )
 shape = SubResource( 1 )
 
 [node name="floor" type="StaticBody2D" parent="Scenary"]
-position = Vector2( 299.022, 1116.04 )
-scale = Vector2( 6.49324, 4.14692 )
+position = Vector2( 297.759, 937 )
+scale = Vector2( 5.882, 1.35 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Scenary/floor"]
 scale = Vector2( 1, 0.996783 )

@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Assets/Sprites/bg.png" type="Texture" id=1]
 [ext_resource path="res://Assets/Sprites/floor.png" type="Texture" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://Scripts/LevelSelector.gd" type="Script" id=7]
 [ext_resource path="res://Scripts/MechanicsManager.gd" type="Script" id=8]
 [ext_resource path="res://Scenes/hoop.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Scenes/hoop_2.tscn" type="PackedScene" id=10]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 64.1619, 64.0402 )
@@ -27,10 +28,6 @@ extents = Vector2( 300, 50 )
 extents = Vector2( 150, 50 )
 
 [node name="Level_1" type="Node2D"]
-
-[node name="Hoop" parent="." instance=ExtResource( 9 )]
-position = Vector2( 104, 448 )
-scale = Vector2( 1.5, 1.5 )
 
 [node name="Scenary" type="Node2D" parent="."]
 
@@ -141,3 +138,13 @@ level_1_max_cascaritas = 50
 
 [node name="LevelSelector" type="Node2D" parent="."]
 script = ExtResource( 7 )
+
+[node name="Obstacles" type="Node2D" parent="."]
+
+[node name="Hoop" parent="Obstacles" instance=ExtResource( 9 )]
+position = Vector2( 104, 488 )
+scale = Vector2( 1.5, 1.5 )
+
+[node name="Hoop2" parent="Obstacles" instance=ExtResource( 10 )]
+position = Vector2( 432, 224 )
+scale = Vector2( 1.5, 1.5 )

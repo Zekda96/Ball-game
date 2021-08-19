@@ -5,7 +5,7 @@
 [ext_resource path="res://Assets/Sprites/bg.png" type="Texture" id=3]
 [ext_resource path="res://Assets/Sprites/floor.png" type="Texture" id=4]
 [ext_resource path="res://Assets/Font/Lato/Lato-Bold.ttf" type="DynamicFontData" id=5]
-[ext_resource path="res://Scenes/score_value.gd" type="Script" id=6]
+[ext_resource path="res://Scripts/score_value.gd" type="Script" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 64.1619, 64.0402 )

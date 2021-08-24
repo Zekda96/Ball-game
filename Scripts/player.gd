@@ -12,7 +12,7 @@ var player_pos_x
 var touch_pos_x
 
 func _ready():
-	print('Start')
+	print('Player.gd Ready')
 
 func _physics_process(delta):
 	calculate_movement()

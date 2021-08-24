@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hoop_2_front.png-fee8563d382423a90bb3de46760c8e73.stex"
+path="res://.import/arrow1.png-8766b93a0ba4b9c502bed4dd54d6ee87.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/hoop_2_front.png"
-dest_files=[ "res://.import/hoop_2_front.png-fee8563d382423a90bb3de46760c8e73.stex" ]
+source_file="res://Assets/Sprites/arrow1.png"
+dest_files=[ "res://.import/arrow1.png-8766b93a0ba4b9c502bed4dd54d6ee87.stex" ]
 
 [params]
 
@@ -20,11 +20,11 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=false
+process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 process/invert_color=false
